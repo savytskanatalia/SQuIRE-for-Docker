@@ -16,5 +16,4 @@ RUN	cd SQuIRE \
 	git pull
 ENV PATH /SQuIRE/squire:$PATH
 
-RUN	cd SQuIRE/squire \
-	python Fetch.py -b hg38 -o /data -f -r -g -x -p 3 
+
