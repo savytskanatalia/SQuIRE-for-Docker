@@ -16,7 +16,7 @@ docker build - < Dockerfile -t $TAGOFYOURCHOICE
 
 To mount container:
 ```
->docker run -it -v /directory/of/your/choice:/data $TAGOFYOURCHOICE
+docker run -it -v /directory/of/your/choice:/data $TAGOFYOURCHOICE
 ```
 
 When container is mounted, it activates automatically conda environment for SQuIRE.
